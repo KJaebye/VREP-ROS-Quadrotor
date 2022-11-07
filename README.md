@@ -11,4 +11,4 @@ The quadricopter configuration is like this:
 
 
 # Usage
-The lua script can publish drone's states and subscribe remote control command from external via ROS msg. In detail, flight autopilot subscribes info from gps and imu, and publish motor speed command as outputs.
+The lua script can publish drone's states and subscribe remote control command from external via ROS msg. In detail, flight autopilot subscribes info from gps and imu, and publish motor speed command as outputs. Thus, user should write an external drone controller outside the VREP.
